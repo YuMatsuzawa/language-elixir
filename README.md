@@ -1,9 +1,13 @@
-# language-elixir package
+# language-elixir-with-croma package
 
-[![Build Status](https://travis-ci.org/elixir-lang/language-elixir.svg?branch=master)](https://travis-ci.org/elixir-lang/language-elixir)
+Fork of [elixir-lang/language-elixir](https://github.com/elixir-lang/language-elixir).
 
-Elixir language support for Atom.
+Adds support for useful macros of [skirino/croma](https://github.com/skirino/croma).
 
-Adds syntax highlighting and snippets to Elixir files in Atom.
+Install via git:
+
+```
+apm install YuMatsuzawa/language-elixir-with-croma
+```
 
 Copyright (c) 2014 [Plataformatec](http://plataformatec.com.br).
