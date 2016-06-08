@@ -4,7 +4,7 @@ Fork of [elixir-lang/language-elixir](https://github.com/elixir-lang/language-el
 
 Adds support for useful macros of [skirino/croma](https://github.com/skirino/croma).
 
-Install via git:
+Disable language-elixir (if present) then install via git:
 
 ```
 apm install YuMatsuzawa/language-elixir-with-croma

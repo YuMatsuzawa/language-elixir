@@ -1,5 +1,5 @@
 {
-  "description": "Elixir language support for Atom.",
+  "description": "Elixir language support for Atom, with Croma support.",
   "engines": {
     "atom": ">= 0.189.0"
   },
