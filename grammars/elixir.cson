@@ -74,7 +74,7 @@
   }
   {
     'comment': 'functions and arguments'
-    'match': '\\b(defp?|defmacrop?)\\b\\s*([_$a-zA-Z][$\\w]*[!?]?)?'
+    'match': '\\b(defp?|defpt|defmacrop?|defunp?|defunpt)\\b\\s*([_$a-zA-Z][$\\w]*[!?]?)?'
     'captures': {
       '1': { 'name': 'keyword.control.elixir' }
       '2': { 'name': 'entity.name.function.elixir' }
