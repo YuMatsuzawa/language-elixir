@@ -14,6 +14,9 @@
   'defp':
     'prefix': 'defp'
     'body': 'defp ${1:function_name} do\n\t$0\nend'
+  'defpt':
+    'prefix': 'defpt'
+    'body': 'defpt ${1:function_name} do\n\t$0\nend'
   'defmacro':
     'prefix': 'defmacro'
     'body': 'defmacro ${1:macro_name} do\n\t$0\nend'
@@ -26,6 +29,15 @@
   'defstruct':
     'prefix': 'defstruct'
     'body': 'defstruct [$1]'
+  'defun':
+    'prefix': 'defun'
+    'body': 'defun ${1:function_name} :: ${2:return_spec} do\n\t$0\nend'
+  'defunp':
+    'prefix': 'defunp'
+    'body': 'defunp ${1:function_name} :: ${2:return_spec} do\n\t$0\nend'
+  'defunpt':
+    'prefix': 'defunpt'
+    'body': 'defunpt ${1:function_name} :: ${2:return_spec} do\n\t$0\nend'
   'doc':
     'prefix': 'doc'
     'body': '@doc """\n\b\b${0:documentation}\n"""'
