@@ -7,7 +7,7 @@ Adds support for useful macros of [skirino/croma](https://github.com/skirino/cro
 Disable language-elixir (if present) then install via git:
 
 ```
-apm install YuMatsuzawa/language-elixir-with-croma
+apm install ymtszw/language-elixir-with-croma
 ```
 
 Copyright (c) 2014 [Plataformatec](http://plataformatec.com.br).
