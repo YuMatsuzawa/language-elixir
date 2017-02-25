@@ -4,7 +4,7 @@
     "atom": ">= 0.189.0"
   },
   "license": "Apache 2.0",
-  "name": "language-elixir-with-croma",
+  "name": "language-elixir",
   "repository": "https://github.com/ymtszw/language-elixir",
-  "version": "0.16.0-croma"
+  "version": "0.17.0-croma"
 }
