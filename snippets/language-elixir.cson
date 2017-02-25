@@ -56,6 +56,9 @@
   'inline defp':
     'prefix': 'idefp'
     'body': 'defp $1, do: $2'
+  'inline defun':
+    'prefix': 'idefun'
+    'body': 'defun ${1:function_name} :: ${2:return_spec}, do: $0'
   'moduledoc':
     'prefix': 'moduledoc'
     'body': '@moduledoc """$0\n"""'
