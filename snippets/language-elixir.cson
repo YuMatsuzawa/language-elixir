@@ -124,16 +124,16 @@
     'body': 'fn($1) -> ${2:...} end'
 '.text.elixir':
   '<% inline %>':
-    'prefix': '%'
+    'prefix': 'in'
     'body': '<% $0 %>'
   '<%= replace %>':
-    'prefix': '%='
+    'prefix': 're'
     'body': '<%= $0 %>'
   '<%% quotation %>':
-    'prefix': '%%'
+    'prefix': 'qu'
     'body': '<%% $0 %>'
   '<%# comment %>':
-    'prefix': '%#'
+    'prefix': 'co'
     'body': '<%# $0 %>'
   'if':
     'prefix': 'if'
