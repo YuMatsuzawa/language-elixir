@@ -130,7 +130,7 @@
     'body': '@typedoc """$0\n"""'
   'fn':
     'prefix': 'fn'
-    'body': 'fn($1) -> ${2:...} end'
+    'body': 'fn $1 -> $2 end'
 '.text.elixir':
   '<% inline %>':
     'prefix': 'in'
