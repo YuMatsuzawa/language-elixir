@@ -115,12 +115,27 @@
   }
   {
     'comment': 'Function with parameters'
-    'begin': '\\b(defp?|defpt|defmacrop?|defunp?|defunpt)\\b\\s*([_$a-z][$\\w]*[!?]?)\\s*\\('
+    'begin': '\\b(defp?|defpt|defmacrop?)\\b\\s*([_$a-z][$\\w]*[!?]?)\\s*\\('
     'beginCaptures': {
       '1': { 'name': 'keyword.control.elixir' }
       '2': { 'name': 'entity.name.function.elixir' }
     }
     'end': '\\)'
+    'patterns': [
+      { 'include': '$self' }
+      { 'include': '#function_parameter' }
+    ]
+  }
+  {
+    'comment': 'Croma defun series with parameters'
+    'begin': '\\b(defunp?|defunpt)\\b\\s*([_$a-z][$\\w]*[!?]?)\\s*\\('
+    'beginCaptures': {
+      '1': { 'name': 'keyword.control.elixir' }
+      '2': { 'name': 'entity.name.function.elixir' }
+    }
+    'end': '\\)\\s+(::)'
+    'endCaptures':
+      '1': { 'name': 'keyword.operator.other.elixir' }
     'patterns': [
       { 'include': '$self' }
       { 'include': '#function_parameter' }
@@ -355,7 +370,7 @@
         'name': 'punctuation.section.regexp.end.elixir'
     'name': 'string.regexp.literal.elixir'
     'patterns': [
-      { 'include': '#nest_parens'}
+      { 'include': '#nest_parens' }
     ]
   }
   {
