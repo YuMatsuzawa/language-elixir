@@ -1,10 +1,10 @@
 {
-  "description": "Elixir language support for Atom, with Croma support.",
+  "description": "Elixir language support for Atom, with skirino/croma support.",
   "engines": {
     "atom": ">= 0.189.0"
   },
   "license": "Apache 2.0",
   "name": "language-elixir",
   "repository": "https://github.com/ymtszw/language-elixir-with-croma",
-  "version": "0.22.0-croma"
+  "version": "0.22.1-croma"
 }
